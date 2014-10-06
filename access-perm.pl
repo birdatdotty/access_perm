@@ -1,5 +1,6 @@
 #!/usr/bin/perl
-use open OUT => ':utf8';
+use utf8;
+use open ':utf8';
 
 open $stdout, ">", "/tmp/access.sh";
 print $stdout "#!/bin/sh\n";
